@@ -1,0 +1,75 @@
+.skills {
+  display: flex;
+}
+.resume-container {
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.7);
+  max-width: 1100px;
+}
+
+.skill {
+  padding: 0 90px;
+}
+.skill:first-child {
+  padding: 0 90px 0 0;
+}
+
+.skills-title {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+}
+
+.sub-title {
+  padding: 50px 0 20px;
+  color: #ec7452;
+  font-size: 35px;
+  font-weight: lighter;
+  border-bottom: 1px solid #ec7452;
+}
+.skill-item {
+  font-weight: bold;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experience-item {
+  display: flex;
+  width: 900px;
+}
+
+.name-period {
+  flex: 1;
+}
+
+.role-description {
+  margin-left: 30px;
+  flex: 4;
+}
+.role {
+  font-weight: bold;
+}
+
+.company-name {
+  /* font-weight: bold; */
+  color: #ec7452;
+}
+.description {
+  line-height: 35px;
+}
+.education {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  width: 900px;
+}
+.education-item-1 {
+  padding: 0 60px;
+}
+
+.education-title {
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.background-img {
+  background-image: url("../assets/img.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* .App {
+  position: absolute;
+  background-image: url("../assets/img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
