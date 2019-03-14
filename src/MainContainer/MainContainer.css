@@ -56,3 +56,29 @@
 
   opacity: 1;
 }
+
+@media (max-width: 750px) {
+  .title-h3 {
+    color: RGBA(236, 116, 82, 1);
+    font-size: 30px;
+    font-weight: lighter;
+    border-bottom: 1px solid RGBA(236, 116, 82, 1);
+  }
+
+  .main-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 100px;
+    background-color: RGBA(37, 41, 52, 1);
+  }
+
+  .project-1,
+  .project-2,
+  .project-3 {
+    width: 300px;
+    height: 200px;
+  }
+}
