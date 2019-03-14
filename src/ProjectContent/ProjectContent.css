@@ -120,7 +120,6 @@ video {
   width: 100px;
   font-weight: bold;
   font-size: 15px;
-
   margin-top: 20px;
 }
 .visit-btn:hover {
@@ -154,4 +153,39 @@ li {
 }
 .close-btn:active {
   color: RGBA(251, 151, 111, 1);
+}
+
+/* ##### Tablet##### */
+@media (max-width: 1024px) {
+  .project-container {
+    border-radius: 5px;
+    width: 800px;
+    box-sizing: border-box;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 650px;
+    position: fixed;
+    /* margin: 0 auto; */
+  }
+  .video-shadow {
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.4);
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .column {
+    padding: 0 45px 0 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+  .close-btn {
+    align-self: flex-end;
+    font-size: 30px;
+    margin-bottom: -40px;
+    transform: translateX(40px);
+  }
 }

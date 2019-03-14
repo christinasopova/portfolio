@@ -73,3 +73,22 @@
 .education-title {
   font-weight: bold;
 }
+
+/* ##### Tablet##### */
+@media (max-width: 1024px) {
+  .skill:first-child {
+    padding: 0 50px 0 0;
+  }
+  .skill {
+    padding: 0 50px;
+  }
+  .experience-item {
+    display: flex;
+    width: 700px;
+  }
+  .resume-container {
+    margin: 0 50px;
+    color: rgba(0, 0, 0, 0.7);
+    max-width: 1100px;
+  }
+}
