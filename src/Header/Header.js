@@ -65,7 +65,7 @@ class Header extends Component {
             }`}
           >
             <h2 className="summary-title">
-              Product Manager / <br /> Web Developer
+              Software Developer / <br /> Product Manager
             </h2>
             <p className="p-summary">
               I am a product manager, web developer proficient in JavaScript and
