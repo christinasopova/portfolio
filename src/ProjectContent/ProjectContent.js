@@ -12,6 +12,7 @@ class ProjectContent extends Component {
     const data = projects[this.props.projectId];
     const {
       projectName,
+      posterUrl,
       projectUrl,
       gitHubUrl,
       videoUrl,
@@ -27,7 +28,7 @@ class ProjectContent extends Component {
           <div className="project-content">
             <h2 className="project-name">{projectName}</h2>
             <div className="video-shadow">
-              <video id="vid" autoplay>
+              <video id="vid" poster={posterUrl} autoplay loop muted>
                 <source src={videoUrl} type="video/mp4" />
               </video>
             </div>

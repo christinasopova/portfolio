@@ -1,6 +1,9 @@
 import pg from "./assets/podcast-guru.m4v";
 import bt from "./assets/budgetTracker.m4v";
 import jg from "./assets/jak-gallery.m4v";
+import poster_pg from "./assets/pg-screen.png";
+import poster_jg from "./assets/jak.png";
+import poster_bt from "./assets/bt.png";
 
 const data = {
   "podcast-guru": {
@@ -13,7 +16,8 @@ const data = {
       "Make it easy to find and listen to favorite professional podcasts and adding them to a favorite list",
     features: "Podcast search, Recommendations, Favorite list",
     tools: "JS, React, SoundCloud API ",
-    gitHubUrl: "https://git.generalassemb.ly/ChristinaS/project-2"
+    gitHubUrl: "https://git.generalassemb.ly/ChristinaS/project-2",
+    posterUrl: poster_pg
   },
   "budget-tracker": {
     projectName: "Budget Tracker",
@@ -24,7 +28,8 @@ const data = {
     features:
       " Personal Account, Transactions form, Categories chart,expenses calculator based on 50/30/20 financial rule, Suggestions, based on calculation result (reduce expenses / save)",
     tools: "JS, React, Redux, Firebase",
-    gitHubUrl: "https://git.generalassemb.ly/ChristinaS/budgetTracker"
+    gitHubUrl: "https://git.generalassemb.ly/ChristinaS/budgetTracker",
+    posterUrl: poster_bt
   },
   "jak-gallery": {
     projectName: "JAK Art Gallery",
@@ -37,7 +42,8 @@ const data = {
     features:
       "User page, Create exhibit, Edit Exhibit, Delete Exhibit, Explore exhibits of others",
     tools: "JS, React, Express, Uploader API, Google API",
-    gitHubUrl: "https://git.generalassemb.ly/voidblzin/Jak-Art-Gallery"
+    gitHubUrl: "https://git.generalassemb.ly/voidblzin/Jak-Art-Gallery",
+    posterUrl: poster_jg
   }
 };
 

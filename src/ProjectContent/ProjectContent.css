@@ -11,7 +11,8 @@
   background-color: RGBA(34, 38, 43, 0.8);
   transform: translateZ(500px);
   transform-style: preserve-3d;
-  /* perspective: 100px; */
+  perspective: 800px;
+  z-index: 99999;
 }
 .btns {
   display: flex;
