@@ -187,7 +187,6 @@ li {
     position: absolute;
     top: 5px;
     left: 700px;
-
     font-size: 30px;
     margin-bottom: -40px;
     transform: translateX(40px);
@@ -239,10 +238,8 @@ li {
   }
   .close-btn {
     position: absolute;
-    align-self: flex-end;
-    font-size: 30px;
-    margin-bottom: -40px;
-    transform: translateX(40px);
+    top: 5px;
+    left: 270px;
   }
   .btns {
     margin: -30px;
